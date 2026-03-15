@@ -2567,16 +2567,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 86.36) (xy 223.52 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c9d7fe-4f36-487b-88f8-ef3c6c84d16e")
-	)
-	(wire
-		(pts
 			(xy 213.36 99.06) (xy 213.36 107.95)
 		)
 		(stroke
@@ -3102,7 +3092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "169d1cdb-ece5-426d-be8b-2cff4984f381")
-		(property "Reference" "100nF"
+		(property "Reference" "100nF1"
 			(at 232.41 109.2199 0)
 			(effects
 				(font
@@ -3111,7 +3101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C5"
 			(at 232.41 111.7599 0)
 			(effects
 				(font
@@ -3156,7 +3146,7 @@
 		(instances
 			(project ""
 				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
-					(reference "100nF")
+					(reference "100nF1")
 					(unit 1)
 				)
 			)
@@ -3368,7 +3358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36ac02f3-a79e-4d3a-a296-e91e03a83d24")
-		(property "Reference" "R21k"
+		(property "Reference" "R2"
 			(at 198.628 91.694 90)
 			(effects
 				(font
@@ -3384,7 +3374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 199.39 90.678 90)
 			(effects
 				(font
@@ -3420,7 +3410,7 @@
 		(instances
 			(project ""
 				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
-					(reference "R21k")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3568,8 +3558,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38bed013-377f-4042-baea-197448511852")
-		(property "Reference" "R11k"
-			(at 196.596 84.328 90)
+		(property "Reference" "R1"
+			(at 198.628 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,14 +3567,14 @@
 			)
 		)
 		(property "Value" "R"
-			(at 199.39 84.328 90)
+			(at 201.422 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 199.39 88.138 90)
 			(effects
 				(font
@@ -3620,7 +3610,7 @@
 		(instances
 			(project ""
 				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
-					(reference "R11k")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4017,72 +4007,6 @@
 			(project ""
 				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50092665-2997-4c5b-a796-e5c39b3e4946")
-		(property "Reference" "#PWR021"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.838 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5e168e9-6bf2-4f37-b2f2-134db604df21")
-		)
-		(instances
-			(project ""
-				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5240,6 +5164,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8baa58cf-0575-4fe6-9e80-bed1f8ecf7b7")
+		(property "Reference" "#PWR021"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14f93a4c-332f-495b-bd0d-7d982e1114c6")
+		)
+		(instances
+			(project ""
+				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:TP4056-42-ESOP8")
 		(at 213.36 86.36 0)
 		(unit 1)
@@ -5339,7 +5330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9068edc0-4e47-423a-97b6-8d616f46cacc")
-		(property "Reference" "10uF"
+		(property "Reference" "10uF1"
 			(at 246.38 109.2199 0)
 			(effects
 				(font
@@ -5348,7 +5339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C6"
 			(at 246.38 111.7599 0)
 			(effects
 				(font
@@ -5357,7 +5348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 243.5352 114.3 0)
 			(effects
 				(font
@@ -5393,7 +5384,7 @@
 		(instances
 			(project ""
 				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
-					(reference "10uF")
+					(reference "10uF1")
 					(unit 1)
 				)
 			)
@@ -5611,7 +5602,7 @@
 		(dnp no)
 		(uuid "995005cf-6537-49d4-94e8-4cd7de4229ed")
 		(property "Reference" "D1"
-			(at 190.1825 80.01 0)
+			(at 191.4525 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,14 +5610,14 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 190.246 82.042 0)
+			(at 191.516 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -6167,7 +6158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 227.33 87.122 90)
 			(effects
 				(font
@@ -6440,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -6566,7 +6557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f973a439-193f-44c4-a9ba-94badca1cf82")
-		(property "Reference" "10uF"
+		(property "Reference" "10uF2"
 			(at 260.35 109.2199 0)
 			(effects
 				(font
@@ -6575,7 +6566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C7"
 			(at 260.35 111.7599 0)
 			(effects
 				(font
@@ -6620,7 +6611,7 @@
 		(instances
 			(project ""
 				(path "/e9e184df-62ab-4563-a030-d9103da9bd49"
-					(reference "10uF")
+					(reference "10uF2")
 					(unit 1)
 				)
 			)
