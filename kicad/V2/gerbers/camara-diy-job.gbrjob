@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.7"
     },
-    "CreationDate": "2026-04-07T21:21:47-04:00"
+    "CreationDate": "2026-04-14T12:30:24-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -72,11 +72,6 @@
       "Path": "camara-diy-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
-    },
-    {
-      "Path": "camara-diy-User_Drawings.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
     },
     {
       "Path": "camara-diy-Edge_Cuts.gm1",
